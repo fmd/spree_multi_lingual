@@ -17,9 +17,8 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'spree_core', '~> 1.3'
-  s.add_dependency 'spree_promo', '~> 1.3'
   s.add_dependency 'i18n'
-  s.add_dependency 'globalize3', '0.2.0'
+  s.add_dependency 'globalize3', ' ~> 0.3.0'
   s.add_dependency 'easy_globalize3_accessors'
   s.add_dependency 'routing-filter', '~> 0.3.1'
   s.add_dependency 'rack-contrib'

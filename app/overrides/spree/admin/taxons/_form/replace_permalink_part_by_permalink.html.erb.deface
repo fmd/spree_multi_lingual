@@ -1,4 +1,4 @@
-<!-- replace "code[erb-loud]:contains('f.field_container :permalink_part do')" closing_selector 'code[erb-silent]:contains("end")' -->
+<!-- replace "code[erb-loud]:contains('f.field_container :permalink_part do')" -->
 
 <%= f.field_container :permalink do %>
   <%= f.label :permalink, t(:permalink) %><span class="required">*</span><br />

@@ -5,4 +5,7 @@ group :test do
   gem 'debugger'
 end
 
+gem 'rack', '>= 1.4.5'
+gem 'globalize3', '>= 0.3.0'
+
 gemspec
